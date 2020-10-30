@@ -217,7 +217,6 @@ public class ThirdPage extends javax.swing.JFrame {
                         JOptionPane.showMessageDialog(frame, "Borrow completed", "Complete", JOptionPane.INFORMATION_MESSAGE);
                     }
                 }
-                System.out.println("didn't match");
             }catch(Exception e){
                 System.out.println("Error: " +e);
             }
